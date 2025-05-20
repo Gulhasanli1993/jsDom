@@ -8,4 +8,66 @@ a {
 }
 a:hover {
   color: black;
+}
+
+section {
+  padding: 80px 0;
+}
+
+#jsdom input {
+  width: 200px;
+  height: 100px;
+  border: 3px solid #000;
+}
+#jsdom .btn {
+  width: 100px;
+  border: 3px solid #000;
+}
+
+#jstask .box {
+  width: 270px;
+  height: 250px;
+  background-color: #a05c49;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#jstask .box h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+#jstask .box input {
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  font-size: 18px;
+  color: #6c7480;
+}
+#jstask .box .add {
+  width: 80px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+}
+#jstask .textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+#jstask .textbox input {
+  width: 200px;
+  padding: 8px;
+  border-radius: 30px;
+  display: flex;
+  text-align: center;
+  border: 3px solid #6c7480;
+  margin: 8px;
+  font-size: 22px;
 }/*# sourceMappingURL=style.css.map */
