@@ -12,9 +12,4 @@ $(document).ready(function () {
         a($('input').val())
     });
 
-
-    $('h2').click(function (e) {
-        e.preventDefault();
-        $('h2').html('hello');
     });
-});

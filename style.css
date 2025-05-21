@@ -27,7 +27,7 @@ section {
 #jstask .box {
   width: 270px;
   height: 250px;
-  background-color: #a05c49;
+  background-color: #9c6644;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -70,4 +70,24 @@ section {
   border: 3px solid #6c7480;
   margin: 8px;
   font-size: 22px;
+}
+@media screen and (max-width: 992px) {
+  #jstask .box {
+    width: 200px;
+    height: 180px;
+  }
+  #jstask .box h1 {
+    font-size: 30px;
+  }
+  #jstask .box input {
+    width: 150px;
+    padding: 10px;
+  }
+  #jstask .textbox {
+    margin-top: 40px;
+  }
+  #jstask .textbox input {
+    width: 150px;
+    padding: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */

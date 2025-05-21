@@ -2,7 +2,7 @@
     .box
         width: 270px
         height: 250px
-        background-color: #a05c49
+        background-color: #9c6644
         border-radius: 20px
         display: flex
         justify-content: center
@@ -35,8 +35,22 @@
             width: 200px
             padding: 8px
             border-radius: 30px
-            display: flex            
+            display: flex
             text-align: center
             border: 3px solid #6c7480
             margin: 8px
             font-size: 22px
+    @media screen and ( max-width: 992px )
+        .box
+            width: 200px
+            height: 180px
+            h1
+                font-size: 30px
+            input
+                width: 150px
+                padding: 10px
+        .textbox
+            margin-top: 40px
+            input
+                width: 150px
+                padding: 5px
