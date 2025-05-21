@@ -47,7 +47,7 @@ section {
   font-size: 18px;
   color: #6c7480;
 }
-#jstask .box .add {
+#jstask .box .btn {
   width: 80px;
   padding: 10px;
   border-radius: 20px;
@@ -71,7 +71,7 @@ section {
   margin: 8px;
   font-size: 22px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   #jstask .box {
     width: 200px;
     height: 180px;
