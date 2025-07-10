@@ -10,7 +10,7 @@ $(document).ready(function () {
         for (let i = 0; i < deyer; i++) {
             text += deyer;
         }
-        netice.innerText = text;
+        textbox.innerText = text;
     });
 });
 
