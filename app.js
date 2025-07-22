@@ -1,16 +1,17 @@
 "use strict";
 $(document).ready(function () {
-    let input = document.getElementById("numberInput");
-    let btn = document.getElementsByClassName("btn");
-    let textbox = document.getElementsByClassName("textbox");
-    btn.addEventListener("click", function () {
 
-        let deyer = parseInt(input.value);
-        let text = "";
-        for (let i = 0; i < deyer; i++) {
-            text += deyer;
+    $('.btn').click(function (e) {
+        e.preventDefault();
+        let a = (b) => {
+            for (let i = 1; i <= b; i++) {
+
+                $('.textbox').append(`${b}`);
+
+            }
         }
-        textbox.innerText = text;
+        a($('input').val())
     });
+
 });
 
